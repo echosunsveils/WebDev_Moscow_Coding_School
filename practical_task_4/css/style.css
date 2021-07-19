@@ -1,8 +1,12 @@
 @import url(reset.css);
 
-header {
+.page {
 
 	width: 1440px;
+}
+
+header {
+
 	height: 200px;
 	left: 0px;
 	top: 0px;
@@ -12,16 +16,10 @@ header {
 
 .title h1 {
 
-	width: 470px;
-	height: 40px;
 	line-height: 200px;
-	left: 80px;
-	top: 80px;
-
+	
 	font-family: Helvetica;
 	font-size: 50px;
-	line-height: 57px;
-	display: flex;
 	align-items: center;
 
 	color: #FFFFFF;
@@ -31,19 +29,13 @@ header {
 .image {
 
 	background-image: url(../img/main.png);
-	width: 1440px;
 	height: 1080px;
-	left: 0px;
-	top: 200px;
 
 }
 
 .navigation {
 
-	width: 1440px;
 	height: 100px;
-	left: 0px;
-	top: 1280px;
 
 	background: #E5E000;
 
@@ -63,20 +55,14 @@ header {
 
 .menu {
 
-	width: 935px;
-	height: 29px;
-	left: 80px;
-	top: 1316px;
-
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 25px;
-	line-height: 29px;
+	line-height: 100px;
 
 
-	display: flex;
-	align-items: center;
+	text-align: center;
 	text-transform: uppercase;
 
 	color: #FFFFFF;
@@ -84,12 +70,7 @@ header {
 }
 
 
-.mainText {
-
-	width: 1280px;
-	height: 637px;
-	left: 80px;
-	top: 1490px;
+.main-text {
 
 	font-family: Helvetica;
 	font-style: normal;
@@ -103,23 +84,27 @@ header {
 
 .footer {
 
-	width: 1440px;
 	height: 200px;
-	left: 0px;
-	top: 2227px;
 
 	background: #E5E000;
 
 }
 
-.footer-image {
+.footer {
 
-	left: 5.56%;
-	right: 80.21%;
-	top: 94.93%;
-	bottom: 3.17%;
+	background-image: url(../img/logo2.png);
+	background-repeat: no-repeat;
+	background-position: left;
 
-	background: #FFFFFF;
 }
 
+.footer-text {
+
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;
+	text-align: right;
+
+	color: #FFFFFF;
+}
 
