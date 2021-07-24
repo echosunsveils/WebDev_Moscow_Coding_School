@@ -1,0 +1,111 @@
+@import url(reset.css);
+
+.page {
+
+	width: 1440px;
+}
+
+header {
+
+	height: 200px;
+	left: 0px;
+	top: 0px;
+	background: #E5E000; 
+
+}
+
+.title h1 {
+
+	line-height: 200px;
+	padding-left: 80px;
+	
+	font-family: Helvetica;
+	font-size: 50px;
+	align-items: center;
+
+	color: #FFFFFF;
+
+}
+
+.image {
+
+	background-image: url(../img/main.png);
+	height: 1080px;
+
+}
+
+.navigation {
+
+	height: 100px;
+
+	background: #E5E000;
+
+}
+
+.navigation ul {
+
+  list-style: none;
+
+}
+
+.navigation li {
+
+  display: inline;
+
+}
+
+.menu {
+
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 100px;
+
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+}
+
+
+.main-text {
+
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 57px;
+	padding-left: 80px;
+
+	color: #000000;
+
+}
+
+.footer {
+
+	height: 200px;
+
+	background: #E5E000;
+
+}
+
+.footer {
+
+	background-image: url(../img/logo2.png);
+	background-repeat: no-repeat;
+	background-position: 80px;
+}
+
+.footer-text {
+
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;
+	text-align: right;
+	padding-right: 80px;
+
+	color: #FFFFFF;
+}
+
