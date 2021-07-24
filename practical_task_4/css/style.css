@@ -8,8 +8,6 @@
 header {
 
 	height: 200px;
-	left: 0px;
-	top: 0px;
 	background: #E5E000; 
 
 }
@@ -21,7 +19,6 @@ header {
 	
 	font-family: Helvetica;
 	font-size: 50px;
-	align-items: center;
 
 	color: #FFFFFF;
 

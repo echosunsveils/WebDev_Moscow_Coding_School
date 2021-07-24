@@ -21,8 +21,6 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	display: flex;
-	align-items: center;
 
 	color: white;
 }
@@ -52,10 +50,6 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	/* identical to box height */
-
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -73,9 +67,6 @@ header {
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -105,10 +96,6 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	/* identical to box height */
-
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -126,8 +113,6 @@ header {
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -157,10 +142,6 @@ header {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	/* identical to box height */
-
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -176,8 +157,6 @@ header {
 	font-family: Times New Roman;
 	font-size: 20px;
 	line-height: 23px;
-	display: flex;
-	align-items: center;
 
 	color: #000000;
 }
@@ -205,8 +184,6 @@ footer {
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 23px;
-	display: flex;
-	align-items: center;
 
 	color: #FFFFFF; 
 }
