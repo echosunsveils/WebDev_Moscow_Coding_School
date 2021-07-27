@@ -1,7 +1,7 @@
 @import	url(reset.css);
 
 header {
-	position: absolute;
+	position: relative;
 	width: 1440px;
 	height: 60px;
 	right: 0px;
@@ -162,7 +162,7 @@ header {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	width: 1440px;
 	height: 60px;
 	left: 0px;
@@ -173,6 +173,7 @@ footer {
 
 .footer-text {
 	position: relative-block;
+	padding: 20px;
 	width: 170px;
 	height: 20px;
 	left: 20px;
