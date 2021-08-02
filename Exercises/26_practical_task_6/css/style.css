@@ -1,0 +1,301 @@
+@import	url(reset.css);
+
+header {
+
+	position: absolute;
+	width: 1440px;
+	height: 140px;
+	left: 0px;
+	top: 0px;
+
+	background: #FFFFFF;
+
+}
+
+.header-title {
+
+	position: absolute;
+	width: 120px;
+	height: 40px;
+	left: 50px;
+	top: 50px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+
+	color: #E50043;
+
+}
+
+.links {
+	
+	font-family: Arial;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+
+
+	color: #E50043;
+}
+
+.link-1 {
+
+	position: absolute;
+	width: 130px;
+	height: 40px;
+	left: 950px;
+	top: 50px;
+
+	text-decoration: none;
+	color: #E50043;
+
+}
+
+.link-2 {
+
+	position: absolute;
+	width: 130px;
+	height: 40px;
+	left: 1105px;
+	top: 50px;
+
+	text-decoration: none;
+	color: #E50043;
+
+}
+
+.link-3 { 
+
+	position: absolute;
+	width: 130px;
+	height: 40px;
+	left: 1260px;
+	top: 50px;
+
+	text-decoration: none;
+	color: #E50043;
+
+}
+
+.logo-section {
+	position: absolute;
+	width: 1440px;
+	height: 950px;
+	left: 0px;
+	top: 140px;
+
+	background: url(../img/evian_origins_logo.png);
+}
+
+.product-text {
+
+	position: absolute;
+	width: 1440px;
+	height: 950px;
+	left: 0px;
+	top: 140px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100px;
+	line-height: 115px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #E50043;
+}
+
+.promo-text {
+
+	position: absolute;
+	width: 1040px;
+	height: 280px;
+	left: 201px;
+	top: 1240px;
+
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+
+.promo-text {
+
+	position: absolute;
+	width: 992px;
+	height: 232px;
+	left: 225px;
+	top: 1264px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+
+}
+
+#image-1 {
+
+	position: absolute;
+	width: 281px;
+	height: 863px;
+	left: 200px;
+	top: 1670px;
+
+	background: url(../img/wang.png)
+
+}
+
+#image-2 {
+
+	position: absolute;
+	width: 279px;
+	height: 863px;
+	left: 581px;
+	top: 1670px;
+
+	background: url(../img/blue.png);
+
+}
+
+#image-3 {
+
+	position: absolute;
+	width: 280px;
+	height: 863px;
+	left: 960px;
+	top: 1670px;
+
+	background: url(../img/chiara.png);
+
+}
+
+.image-description-1 { 
+
+	position: absolute;
+	width: 248px;
+	height: 58px;
+	left: 216px;
+	top: 2581px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.image-description-2 {
+
+	position: absolute;
+	width: 249px;
+	height: 58px;
+	left: 601px;
+	top: 2575px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+}
+
+.image-description-3 {
+
+	position: absolute;
+	width: 237px;
+	height: 58px;
+	left: 987px;
+	top: 2575px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+	
+}
+
+.composition {
+
+	position: absolute;
+	width: 1040px;
+	height: 280px;
+	left: 201px;
+	top: 2789px;
+
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
+
+}
+
+.composition {
+	position: absolute;
+	width: 749px;
+	height: 220px;
+	left: 462px;
+	top: 2819px;
+
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+
+.footer {
+	
+	position: absolute;
+	width: 1440px;
+	height: 140px;
+	left: 0px;
+	top: 3219px;
+
+	background: #F8BFC7;
+}
+
+.footer-text {
+
+	position: absolute;
+	width: 330px;
+	height: 40px;
+	left: 50px;
+	top: 3269px;
+
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+}

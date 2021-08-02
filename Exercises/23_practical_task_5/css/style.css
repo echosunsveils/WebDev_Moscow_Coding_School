@@ -1,20 +1,22 @@
 @import	url(reset.css);
 
 header {
-	position: relative;
-	width: 1440px;
 	height: 60px;
 	right: 0px;
 	top: 0px;
 	background-color: #FE1A19;
 }
 
+.menu-list {
+
+}
+
 .title {
-	position: absolute;
 	width: 820px;
 	height: 20px;
 	left: 20px;
 	top: 20px;
+	padding: 20px 600px 20px 20px;
 
 	font-family: Helvetica;
 	font-style: normal;
@@ -25,8 +27,10 @@ header {
 	color: white;
 }
 
+
 .first-dish {
-	position: absolute;
+	display: inline-block;
+	margin: 60px 970px 60px 70px;
 	width: 400px;
 	height: 800px;
 	left: 70px;
@@ -38,7 +42,6 @@ header {
 }
 
 .first-dish-headline {
-	position: relative-block;
 	width: 207px;
 	height: 23px;
 	left: 103px;
@@ -55,7 +58,6 @@ header {
 }
 
 .first-dish-ingredients {
-	position: relative-block;
 	width: 334px;
 	height: 670px;
 	left: 103px;
@@ -72,11 +74,12 @@ header {
 }
 
 .second-dish {
-	position: absolute;
+	margin: 60px 520px;
 	width: 400px;
 	height: 800px;
 	left: 520px;
 	top: 112px;
+
 
 	border: 5px solid #E5E000;
 	box-sizing: border-box;
@@ -84,7 +87,6 @@ header {
 }
 
 .second-dish-headline {
-	position: relative-block;
 	width: 207px;
 	height: 23px;
 	left: 553px;
@@ -101,7 +103,6 @@ header {
 }
 
 .second-dish-ingredients {
-	position: relative-block;
 	width: 334px;
 	height: 670px;
 	left: 553px;
@@ -118,7 +119,7 @@ header {
 }
 
 .third-dish {
-	position: absolute;
+	margin: 60px 70px 60px 970px;
 	width: 400px;
 	height: 800px;
 	left: 970px;
@@ -130,7 +131,6 @@ header {
 }
 
 .third-dish-headline {
-	position: relative-block;
 	width: 207px;
 	height: 23px;
 	left: 1003px;
@@ -147,7 +147,6 @@ header {
 }
 
 .third-dish-ingredients {
-	position: relative-block;
 	width: 334px;
 	height: 670px;
 	left: 1003px;
@@ -162,8 +161,6 @@ header {
 }
 
 footer {
-	position: absolute;
-	width: 1440px;
 	height: 60px;
 	left: 0px;
 	top: 964px;
@@ -172,12 +169,11 @@ footer {
 }
 
 .footer-text {
-	position: relative-block;
 	width: 170px;
 	height: 20px;
 	left: 20px;
 	top: 984px;
-	margin: 20px;
+	padding: 20px 1250px 20px 20px;
 
 	font-family: Helvetica;
 	font-style: normal;
