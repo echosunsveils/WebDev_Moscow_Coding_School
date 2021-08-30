@@ -1,0 +1,175 @@
+@import	url(reset.css);
+
+.header {
+	width: 1440px;
+	height: 160px;
+	left: 0px;
+	top: 0px;
+
+	background: #FFE138;
+}
+
+.header-text {
+	margin: auto;
+	width: 410px;
+	height: 57px;
+	left: 515px;
+	top: 52px;
+
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	text-align: center;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.columns {
+	width: 80vw;
+	margin: auto;
+	min-height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+	background-color: lightgrey;
+}
+
+
+.column-1 {
+	width: 400px;
+	height: 985px;
+	left: 70px;
+	top: 230px;
+
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.image-1 {
+ 	background-image: url(../img/bcnr.jpg);
+ 	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column-1-text {
+
+	width: 334px;
+	height: 325px;
+	left: 103px;
+	top: 860px;
+
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	
+
+	color: #000000;
+}
+
+.column-2 {
+	width: 400px;
+	height: 1010px;
+	left: 520px;
+	top: 230px;
+
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.image-2 {
+
+	background-image: url(../img/clamor.jpg);
+ 	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column-2-text {
+	width: 334px;
+	height: 350px;
+	left: 553px;
+	top: 860px;
+
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	/* or 125% */
+
+
+	color: #000000;
+}
+
+.column-3 {
+	width: 400px;
+	height: 1260px;
+	left: 970px;
+	top: 230px;
+
+	border: 1px solid #000000;
+	box-sizing: border-box; 
+}
+
+.image-3 {
+
+	background-image: url(../img/fratti.jpg);
+ 	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column-3-text {
+
+	width: 334px;
+	height: 600px;
+	left: 1003px;
+	top: 860px;
+
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	/* or 125% */
+
+
+	color: #000000;
+}
+
+
+.footer {
+
+	width: 1440px;
+	height: 160px;
+	left: 0px;
+	top: 1560px;
+
+	background: #FFE138;
+}
+
+.footer-text {
+	margin: auto;
+	width: 100px;
+	height: 57px;
+	left: 670px;
+	top: 1612px;
+
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	text-align: center;
+
+	color: #000000;
+}

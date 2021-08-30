@@ -33,13 +33,12 @@ header {
 }
 
 .links {
-	
+
 	font-family: Arial;
 	font-size: 50px;
 	line-height: 57px;
 	display: flex;
 	align-items: center;
-
 
 	color: #E50043;
 }
@@ -84,22 +83,20 @@ header {
 }
 
 .logo-section {
-	position: absolute;
+
+	position: relative;
 	width: 1440px;
 	height: 950px;
 	left: 0px;
 	top: 140px;
 
 	background: url(../img/evian_origins_logo.png);
+	display: flex;
 }
 
 .product-text {
 
-	position: absolute;
-	width: 1440px;
-	height: 950px;
-	left: 0px;
-	top: 140px;
+	position: relative;
 
 	font-family: Arial;
 	font-style: normal;
@@ -107,6 +104,7 @@ header {
 	font-size: 100px;
 	line-height: 115px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 
@@ -122,18 +120,14 @@ header {
 	top: 1240px;
 
 	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
+	box-sizing: content-box;
 	border-radius: 20px;
 
 }
 
 .promo-text {
 
-	position: absolute;
-	width: 992px;
-	height: 232px;
-	left: 225px;
-	top: 1264px;
+	padding: 24px;
 
 	font-family: Arial;
 	font-size: 25px;
@@ -241,19 +235,23 @@ header {
 
 .composition {
 
-	position: absolute;
+	position: relative;
+	padding: 30px;
 	width: 1040px;
 	height: 280px;
 	left: 201px;
 	top: 2789px;
+	display: flex;
+
 
 	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
+	box-sizing: content-box;
 	border-radius: 20px;
 
 }
 
 .composition {
+
 	position: absolute;
 	width: 749px;
 	height: 220px;
@@ -270,8 +268,19 @@ header {
 	color: #000000;
 }
 
+#image-composition {
+
+	position: absolute;
+	width: 101px;
+	height: 220px;
+	left: 281px;
+	top: 2819px;
+
+	background: url(../img/glass.png);
+}
+
 .footer {
-	
+
 	position: absolute;
 	width: 1440px;
 	height: 140px;
@@ -283,11 +292,6 @@ header {
 
 .footer-text {
 
-	position: absolute;
-	width: 330px;
-	height: 40px;
-	left: 50px;
-	top: 3269px;
 
 	font-family: Arial;
 	font-style: normal;
