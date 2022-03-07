@@ -1,102 +1,49 @@
 @import	url(reset.css);
 
 header {
-
-	position: absolute;
 	width: 1440px;
-	height: 140px;
-	left: 0px;
-	top: 0px;
+	padding: 20px 50px;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
 
 	background: #FFFFFF;
-
 }
 
 .header-title {
-
-	position: absolute;
-	width: 120px;
-	height: 40px;
-	left: 50px;
-	top: 50px;
-
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 50px;
 	line-height: 57px;
-	display: flex;
-	align-items: center;
 
 	color: #E50043;
-
 }
 
-.links {
-
+.navigation {
 	font-family: Arial;
-	font-size: 50px;
+	font-size: 35px;
 	line-height: 57px;
-	display: flex;
-	align-items: center;
-
-	color: #E50043;
-}
-
-.link-1 {
-
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 950px;
-	top: 50px;
-
 	text-decoration: none;
+
 	color: #E50043;
-
-}
-
-.link-2 {
-
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 1105px;
-	top: 50px;
-
-	text-decoration: none;
-	color: #E50043;
-
-}
-
-.link-3 { 
-
-	position: absolute;
-	width: 130px;
-	height: 40px;
-	left: 1260px;
-	top: 50px;
-
-	text-decoration: none;
-	color: #E50043;
-
 }
 
 .logo-section {
-
-	position: relative;
 	width: 1440px;
 	height: 950px;
-	left: 0px;
-	top: 140px;
-
-	background: url(../img/evian_origins_logo.png);
+	
+	background-image: url(../img/evian_origins_logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	display: flex;
+	
 }
 
-.product-text {
-
-	position: relative;
+.logo-text {
+	margin: auto;
 
 	font-family: Arial;
 	font-style: normal;
@@ -104,159 +51,54 @@ header {
 	font-size: 100px;
 	line-height: 115px;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	text-align: center;
 
 	color: #E50043;
 }
 
-.promo-text {
-
-	position: absolute;
-	width: 1040px;
-	height: 280px;
-	left: 201px;
-	top: 1240px;
-
-	border: 3px solid #F8BFC7;
-	box-sizing: content-box;
-	border-radius: 20px;
-
+.main-description {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .promo-text {
-
-	padding: 24px;
+	margin: 144px;
+	padding: 20px;
 
 	font-family: Arial;
 	font-size: 25px;
 	line-height: 29px;
-	display: flex;
 	align-items: center;
 	letter-spacing: 0.05em;
 
 	color: #000000;
 
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
 }
 
-#image-1 {
-
-	position: absolute;
-	width: 281px;
-	height: 863px;
-	left: 200px;
-	top: 1670px;
-
-	background: url(../img/wang.png)
-
-}
-
-#image-2 {
-
-	position: absolute;
-	width: 279px;
-	height: 863px;
-	left: 581px;
-	top: 1670px;
-
-	background: url(../img/blue.png);
-
-}
-
-#image-3 {
-
-	position: absolute;
+.bottle {
 	width: 280px;
-	height: 863px;
-	left: 960px;
-	top: 1670px;
-
-	background: url(../img/chiara.png);
-
-}
-
-.image-description-1 { 
-
-	position: absolute;
-	width: 248px;
-	height: 58px;
-	left: 216px;
-	top: 2581px;
-
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
-	display: flex;
-	align-items: center;
+	justify-content: center;
 	text-align: center;
-
-	color: #000000;
-
 }
 
-.image-description-2 {
-
-	position: absolute;
-	width: 249px;
-	height: 58px;
-	left: 601px;
-	top: 2575px;
-
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #000000;
-
-}
-
-.image-description-3 {
-
-	position: absolute;
-	width: 237px;
-	height: 58px;
-	left: 987px;
-	top: 2575px;
-
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-
-	color: #000000;
-	
-}
-
-.composition {
-
-	position: relative;
+.bottle p {
 	padding: 30px;
-	width: 1040px;
-	height: 280px;
-	left: 201px;
-	top: 2789px;
-	display: flex;
 
+	font-family: Arial;
+	font-size: 25px;
+	line-height: 29px;
 
-	border: 3px solid #F8BFC7;
-	box-sizing: content-box;
-	border-radius: 20px;
-
+	color: #000000;
 }
 
 .composition {
-
-	position: absolute;
-	width: 749px;
-	height: 220px;
-	left: 462px;
-	top: 2819px;
+	margin: 144px;
+	padding: 30px;
 
 	font-family: Arial;
 	font-size: 25px;
@@ -265,34 +107,27 @@ header {
 	align-items: center;
 	letter-spacing: 0.05em;
 
-	color: #000000;
+	border: 3px solid #F8BFC7;
+	box-sizing: border-box;
+	border-radius: 20px;
 }
 
-#image-composition {
-
-	position: absolute;
-	width: 101px;
-	height: 220px;
-	left: 281px;
-	top: 2819px;
-
-	background: url(../img/glass.png);
+.image-composition {
+ 	padding: 30px 80px;
 }
 
 .footer {
-
-	position: absolute;
 	width: 1440px;
-	height: 140px;
-	left: 0px;
-	top: 3219px;
+	padding: 20px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
 
 	background: #F8BFC7;
 }
 
 .footer-text {
-
-
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
@@ -300,6 +135,8 @@ header {
 	line-height: 57px;
 	display: flex;
 	align-items: center;
+	text-decoration: none;
 
 	color: #FFFFFF;
 }
+

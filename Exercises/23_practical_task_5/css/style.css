@@ -27,16 +27,17 @@ header {
 }
 
 
-/*.dish {
+.dish {
 	display: inline-block;
 	text-align: left;
 	width: 400px;
 	height: 800px;
+	margin: 0 50px;
 
 	border: 5px solid #E5E000;
 	box-sizing: border-box;
 	border-radius: 30px;
-}*/
+}
 
 h2 {
 	width: 334px;
@@ -53,19 +54,6 @@ h2 {
 	color: #000000;
 }
 
-
-.first-dish {
-	display: inline-block;
-	text-align: left;
-	width: 400px;
-	height: 800px;
-
-	border: 5px solid #E5E000;
-	box-sizing: border-box;
-	border-radius: 30px;
-}
-
-
 .first-dish-ingredients {
 	width: 334px;
 	padding: 30px;
@@ -79,18 +67,6 @@ h2 {
 	line-height: 23px;
 
 	color: #000000;
-}
-
-.second-dish {
-	display: inline-block;
-	text-align: left;
-	margin: 0px 50px;
-	width: 400px;
-	height: 800px;
-
-	border: 5px solid #E5E000;
-	box-sizing: border-box;
-	border-radius: 30px;
 }
 
 .second-dish-ingredients {
@@ -108,22 +84,10 @@ h2 {
 	color: #000000;
 }
 
-.third-dish {
-	display: inline-block;
-	text-align: left;
-	width: 400px;
-	height: 800px;
-
-	border: 5px solid #E5E000;
-	box-sizing: border-box;
-	border-radius: 30px;
-}
-
 
 .third-dish-ingredients {
 	width: 334px;
 	padding: 30px;
-	/*margin: 0 50px;*/
 	text-align: left;
 
 	font-family: Times New Roman;
