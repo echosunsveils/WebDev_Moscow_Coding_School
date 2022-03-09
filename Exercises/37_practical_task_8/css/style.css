@@ -1,175 +1,117 @@
 @import	url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Raleway:wght@100;300&display=swap');
+
+body {
+	background-image: url(https://images.unsplash.com/photo-1584679109691-1d0c852bc5bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
 
 .header {
-	width: 1440px;
-	height: 160px;
-	left: 0px;
-	top: 0px;
+	width: 100vw;
+	height: 5vh;
+	min-height: 120px;
 
-	background: #FFE138;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: snow;
 }
 
 .header-text {
-	margin: auto;
-	width: 410px;
-	height: 57px;
-	left: 515px;
-	top: 52px;
 
-	font-family: Times New Roman;
+	font-family: 'Rajdhani', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 57px;
-	display: flex;
-	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+
 	text-transform: uppercase;
 
 	color: #000000;
 }
 
-.columns {
+.content-container {
 	width: 80vw;
-	margin: auto;
+	margin: 70px auto;
 	min-height: 500px;
 	display: flex;
-	flex-direction: row;
+	align-content: flex-start;
 	justify-content: space-between;
-	align-items: stretch;
-	background-color: lightgrey;
 }
 
+.column {
+	width: calc((100% - 100px)/3);
 
-.column-1 {
-	width: 400px;
-	height: 985px;
-	left: 70px;
-	top: 230px;
-
-	border: 1px solid #000000;
+	border: 2px solid #000000;
 	box-sizing: border-box;
+
+	background-color: snow;
 }
 
 .image-1 {
- 	background-image: url(../img/bcnr.jpg);
+ 	background-image: url(https://f4.bcbits.com/img/a3874459819_10.jpg);
  	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%;
 }
 
-.column-1-text {
 
-	width: 334px;
-	height: 325px;
-	left: 103px;
-	top: 860px;
-
-	font-family: Times New Roman;
+.headlines {
+	font-family: 'Rajdhani', sans-serif;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	
-
+	font-size: 1.5em;
+	margin: 2vw;
+		
 	color: #000000;
 }
 
-.column-2 {
-	width: 400px;
-	height: 1010px;
-	left: 520px;
-	top: 230px;
+.column-text {
+	font-family: 'Rajdhani', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 2vw;
 
-	border: 1px solid #000000;
-	box-sizing: border-box;
+	color: #000000;
 }
 
 .image-2 {
-
-	background-image: url(../img/clamor.jpg);
+	background-image: url(https://f4.bcbits.com/img/a2642806916_10.jpg);
  	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%;
 }
 
-.column-2-text {
-	width: 334px;
-	height: 350px;
-	left: 553px;
-	top: 860px;
-
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	/* or 125% */
-
-
-	color: #000000;
-}
-
-.column-3 {
-	width: 400px;
-	height: 1260px;
-	left: 970px;
-	top: 230px;
-
-	border: 1px solid #000000;
-	box-sizing: border-box; 
-}
 
 .image-3 {
-
-	background-image: url(../img/fratti.jpg);
+	background-image: url(https://f4.bcbits.com/img/a3788152425_10.jpg);
  	background-size: cover;
 	background-position: center;
 	padding-bottom: 100%;
 }
 
-.column-3-text {
-
-	width: 334px;
-	height: 600px;
-	left: 1003px;
-	top: 860px;
-
-	font-family: Times New Roman;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 25px;
-	/* or 125% */
-
-
-	color: #000000;
-}
-
-
 .footer {
+	width: 100vw;
+	min-height: 60px;
+	height: 5vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-	width: 1440px;
-	height: 160px;
-	left: 0px;
-	top: 1560px;
-
-	background: #FFE138;
+	background: snow;
 }
 
 .footer-text {
 	margin: auto;
-	width: 100px;
-	height: 57px;
-	left: 670px;
-	top: 1612px;
 
-	font-family: Times New Roman;
+	font-family: 'Rajdhani', sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 50px;
-	line-height: 57px;
-	display: flex;
+	font-size: 2.5em;
 	text-align: center;
+	font-weight: bold;
 
 	color: #000000;
 }
