@@ -1,7 +1,7 @@
 @import	url(reset.css);
 
 header {
-	width: 1440px;
+	width: 100%;
 	padding: 20px 50px;
 	position: fixed;
 	display: flex;
@@ -22,17 +22,18 @@ header {
 	color: #E50043;
 }
 
-.navigation {
+.navigation a {
 	font-family: Arial;
 	font-size: 35px;
 	line-height: 57px;
 	text-decoration: none;
+	padding: 20px;
 
 	color: #E50043;
 }
 
 .logo-section {
-	width: 1440px;
+	width: 100%;
 	height: 950px;
 	
 	background-image: url(../img/evian_origins_logo.png);
@@ -61,11 +62,13 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 150px;
 }
 
 .promo-text {
-	margin: 144px;
 	padding: 20px;
+	margin: 0 auto;
+	margin-bottom: 150px;
 
 	font-family: Arial;
 	font-size: 25px;
@@ -80,8 +83,9 @@ header {
 	border-radius: 20px;
 }
 
-.bottle {
+.bottle-container {
 	width: 280px;
+	display: flex;
 	justify-content: center;
 	text-align: center;
 }
@@ -96,20 +100,9 @@ header {
 	color: #000000;
 }
 
-.composition {
-	margin: 144px;
-	padding: 30px;
-
-	font-family: Arial;
-	font-size: 25px;
-	line-height: 29px;
+.promo-text-flex {
 	display: flex;
-	align-items: center;
-	letter-spacing: 0.05em;
-
-	border: 3px solid #F8BFC7;
-	box-sizing: border-box;
-	border-radius: 20px;
+	margin-top: 150px;
 }
 
 .image-composition {
@@ -117,7 +110,7 @@ header {
 }
 
 .footer {
-	width: 1440px;
+	width: 100%;
 	padding: 20px 50px;
 	display: flex;
 	justify-content: space-between;
@@ -128,6 +121,19 @@ header {
 }
 
 .footer-text {
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 57px;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+
+	color: #FFFFFF;
+}
+
+.footer-text a {
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
