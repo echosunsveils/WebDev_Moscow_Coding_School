@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Bleep Wishlist</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta description="boilerplate code">
+	<meta keywords="boilerplate, test">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo"></div>
+		<nav class="navigation">
+			<div class="links">
+				<a href="https://bleep.com/vinyl-cd">Vinyl, CD and Cassette</a>
+				<a href="https://bleep.com/downloads">Downloads</a>
+				<a href="https://bleep.com/merchandise">Merchandise</a>
+		</nav>
+	</header>
+	<main class="content">
+		<div class="form-container">
+			<form
+  			action="https://formspree.io/f/mqknljwv" method="POST">
+				<fieldset class="personal">
+					<p>Your Information</p>
+					<label for="name">Name*</label>
+					<input type="text" name="name" placeholder="Enter Your Email">
+					<label for="email">Email*</label>
+					<input type="email" name="email" placeholder="Enter Your Email">
+					<label for="password">Password*</label>
+					<input type="password" name="password">
+					<label for="zipcode">Zipcode*</label>
+					<input type="zipcode" name="zipcode" placeholder="Enter Your Zipcode">
+				</fieldset>
+				<fieldset class="order">
+					<p>Your Order</p>
+					<label for="format">Desired Format:</label>
+					<input type="radio" name="format" value="cassette" checked="true">
+					<span>Cassette</span>
+					<input type="radio" name="format" value="Vinyl" checked="true">
+					<span>Vinyl</span>
+					<input type="radio" name="format" value="CD" checked="true">
+					<span>CD</span>
+					<label for="date">Date of the Release</label>
+					<input type="date" name="date">
+					<label for="artist">Artist Name</label>
+					<input type="text" name="artist">
+					<label for="album">Album Name</label>
+					<input type="text" name="album">
+				</fieldset>
+				<div class="submit">
+					<input type="submit" name="submit" value="Add to Wishlist">
+					<p class="notification">We'll notify you once your desired release is available on our website!</p>
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<nav class="navigation">
+			<div class="links">
+				<a href="https://bleep.com/newsletters">Newsletter</a>
+				<a href="#">Contact Support</a>
+				<a href="https://support.ochre.store/hc/en-us">Help Center</a>
+			</div>
+		</nav>
+	</footer>
+</body>
+</html>	
